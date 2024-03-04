@@ -1,9 +1,9 @@
 ---
-- name: No operation
+- name: Debug
   hosts: all
   sources:
     - name: range
-      range:
+      ansible.eda.range:
         limit: 5
   rules:
     - name: r1
